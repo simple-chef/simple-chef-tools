@@ -1,1 +1,1 @@
-node.default['simple-chef-toools']['safebash']['lockdir'] = '/etc/safebash'
+node.default['simple-chef-tools']['safebash']['lockdir'] = '/etc/safebash'
