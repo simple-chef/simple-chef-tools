@@ -20,6 +20,7 @@ action :run do
 
   bash new_resource.task_name do
     code <<-EOH
+      set -e
       #{codetorun}
       touch #{node['simple-chef-tools']['safebash']['lockdir']}/#{filename}
     EOH
